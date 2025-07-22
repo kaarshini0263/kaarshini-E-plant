@@ -1,0 +1,106 @@
+/* Main container styling */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Form card styling */
+  .form-card {
+    background-image: url(https://media.istockphoto.com/id/1303431416/photo/texture-of-fertile-soil-top-view.jpg?s=612x612&w=0&k=20&c=0DkHz-rQXTvMEvTHQd1yLyfjhDmw6TX-yc2tTRPKWHQ=);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Title styling */
+  .form-title {
+    text-align: center;
+    color: white;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  .form-subtitle {
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+  
+  /* Form input styling */
+  .custom-form .form-control {
+    padding: 0.75rem 1rem;
+    border: 1px solid #dfe6e9;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-form .form-control:focus {
+    
+    box-shadow: 0 0 0 0.25rem rgba(52, 152, 219, 0.25);
+  }
+  
+  .custom-form .form-label {
+    font-weight: 500;
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Input group styling */
+  .custom-form .input-group-text {
+    background-color: #f1f2f6;
+    border: 1px solid #dfe6e9;
+    color: white;
+  }
+  
+  /* Feedback styling */
+  .custom-form .valid-feedback {
+    color:rgb(42, 167, 42);
+  }
+  
+  .custom-form .invalid-feedback {
+    color: #e74c3c;
+  }
+  
+  /* Terms checkbox styling */
+  .terms-checkbox .form-check-input {
+    margin-top: 0.2rem;
+  }
+  
+  .terms-checkbox .form-check-label {
+    color: white;
+  }
+  
+  /* Submit button styling */
+  .submit-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: rgb(8, 165, 8);
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+   text-shadow: goldenrod;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .form-card {
+      padding: 1.5rem;
+    }
+    
+    .form-title {
+      font-size: 1.5rem;
+    }
+  }

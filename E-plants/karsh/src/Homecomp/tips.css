@@ -1,0 +1,72 @@
+.tips-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  .tips-title {
+    text-align: center;
+    color: #2e8b57;
+    margin-bottom: 30px;
+    margin-top: 80px;
+  }
+  
+  .tips-content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .tips-text {
+    flex: 1;
+  }
+  
+  .tips-image {
+    flex: 1;
+  }
+  
+  .tips-image img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .tip {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    align-items: flex-start;
+  }
+  
+  .tip span {
+    background: #2e8b57;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-weight: bold;
+  }
+  
+  .note {
+    background: #f8f9e8;
+    padding: 10px;
+    border-left: 3px solid #e0c343;
+    font-style: italic;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .tips-content {
+      flex-direction: column;
+    }
+  }
+  .tips-page{
+    margin-top: 60px;
+  }
+  .section-title{
+    font-style: italic;
+  }
